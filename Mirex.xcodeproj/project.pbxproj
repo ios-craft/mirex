@@ -14,6 +14,9 @@
 		408C0B8A1D21E14A003237E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408C0B881D21E14A003237E3 /* LaunchScreen.storyboard */; };
 		408C0B951D21E14A003237E3 /* MirexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C0B941D21E14A003237E3 /* MirexTests.swift */; };
 		408C0BA01D21E14A003237E3 /* MirexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C0B9F1D21E14A003237E3 /* MirexUITests.swift */; };
+		CB47B8B2AD6EBE2D79B13589 /* Pods_MirexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C69D67C973BF39AC76B59DF /* Pods_MirexUITests.framework */; };
+		D3825D7C291E65DB6B52BC94 /* Pods_MirexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E5C392F669CBB778C70569 /* Pods_MirexTests.framework */; };
+		E5B42F1CAA98827E8CB2999C /* Pods_Mirex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45D7D4C82C8B584027CC980 /* Pods_Mirex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1663CCD42B403888D142E120 /* Pods-MirexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirexUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MirexUITests/Pods-MirexUITests.release.xcconfig"; sourceTree = "<group>"; };
 		408C0B7C1D21E14A003237E3 /* Mirex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mirex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408C0B7F1D21E14A003237E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		408C0B811D21E14A003237E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		408C0B9B1D21E14A003237E3 /* MirexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		408C0B9F1D21E14A003237E3 /* MirexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirexUITests.swift; sourceTree = "<group>"; };
 		408C0BA11D21E14A003237E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C69D67C973BF39AC76B59DF /* Pods_MirexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MirexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E371B1B8CC675C0955D5C17 /* Pods-Mirex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mirex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mirex/Pods-Mirex.debug.xcconfig"; sourceTree = "<group>"; };
+		89392987ED8A6BCE7BDF716B /* Pods-MirexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirexTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MirexTests/Pods-MirexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BCAD2F30A79BE03D1606B0F /* Pods-MirexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirexTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MirexTests/Pods-MirexTests.release.xcconfig"; sourceTree = "<group>"; };
+		C45D7D4C82C8B584027CC980 /* Pods_Mirex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mirex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E891A332A73718FAEE0C376F /* Pods-Mirex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mirex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mirex/Pods-Mirex.release.xcconfig"; sourceTree = "<group>"; };
+		F4E5C392F669CBB778C70569 /* Pods_MirexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MirexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC213EA4B18739036408B653 /* Pods-MirexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirexUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MirexUITests/Pods-MirexUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B42F1CAA98827E8CB2999C /* Pods_Mirex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3825D7C291E65DB6B52BC94 /* Pods_MirexTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB47B8B2AD6EBE2D79B13589 /* Pods_MirexUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				408C0B931D21E14A003237E3 /* MirexTests */,
 				408C0B9E1D21E14A003237E3 /* MirexUITests */,
 				408C0B7D1D21E14A003237E3 /* Products */,
+				94BBD258FE37AC7A285B7D98 /* Pods */,
+				6D97AFCBE20F327EB86279F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = MirexUITests;
 			sourceTree = "<group>";
 		};
+		6D97AFCBE20F327EB86279F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C45D7D4C82C8B584027CC980 /* Pods_Mirex.framework */,
+				F4E5C392F669CBB778C70569 /* Pods_MirexTests.framework */,
+				5C69D67C973BF39AC76B59DF /* Pods_MirexUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94BBD258FE37AC7A285B7D98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E371B1B8CC675C0955D5C17 /* Pods-Mirex.debug.xcconfig */,
+				E891A332A73718FAEE0C376F /* Pods-Mirex.release.xcconfig */,
+				89392987ED8A6BCE7BDF716B /* Pods-MirexTests.debug.xcconfig */,
+				8BCAD2F30A79BE03D1606B0F /* Pods-MirexTests.release.xcconfig */,
+				FC213EA4B18739036408B653 /* Pods-MirexUITests.debug.xcconfig */,
+				1663CCD42B403888D142E120 /* Pods-MirexUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 408C0BA41D21E14A003237E3 /* Build configuration list for PBXNativeTarget "Mirex" */;
 			buildPhases = (
+				0BF0F77B9E77B36761974F90 /* [CP] Check Pods Manifest.lock */,
 				408C0B781D21E14A003237E3 /* Sources */,
 				408C0B791D21E14A003237E3 /* Frameworks */,
 				408C0B7A1D21E14A003237E3 /* Resources */,
+				EA5A1AC5D3C2D288BFD67328 /* [CP] Embed Pods Frameworks */,
+				35C3C51A3D25A9CC910F8183 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 408C0BA71D21E14A003237E3 /* Build configuration list for PBXNativeTarget "MirexTests" */;
 			buildPhases = (
+				C366B76373AE664673147C32 /* [CP] Check Pods Manifest.lock */,
 				408C0B8C1D21E14A003237E3 /* Sources */,
 				408C0B8D1D21E14A003237E3 /* Frameworks */,
 				408C0B8E1D21E14A003237E3 /* Resources */,
+				33A3216E848BA81D0AC0A32D /* [CP] Embed Pods Frameworks */,
+				C508B877972AD46ED29C42C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 408C0BAA1D21E14A003237E3 /* Build configuration list for PBXNativeTarget "MirexUITests" */;
 			buildPhases = (
+				EAA640F7EED90F0655F555A2 /* [CP] Check Pods Manifest.lock */,
 				408C0B971D21E14A003237E3 /* Sources */,
 				408C0B981D21E14A003237E3 /* Frameworks */,
 				408C0B991D21E14A003237E3 /* Resources */,
+				A2B3D6AF85B5A785EDF4EE55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF0F77B9E77B36761974F90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33A3216E848BA81D0AC0A32D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MirexTests/Pods-MirexTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35C3C51A3D25A9CC910F8183 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mirex/Pods-Mirex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2B3D6AF85B5A785EDF4EE55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MirexUITests/Pods-MirexUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C366B76373AE664673147C32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C508B877972AD46ED29C42C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MirexTests/Pods-MirexTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5A1AC5D3C2D288BFD67328 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mirex/Pods-Mirex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA640F7EED90F0655F555A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		408C0B781D21E14A003237E3 /* Sources */ = {
@@ -399,6 +570,7 @@
 		};
 		408C0BA51D21E14A003237E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E371B1B8CC675C0955D5C17 /* Pods-Mirex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mirex/Info.plist;
@@ -410,6 +582,7 @@
 		};
 		408C0BA61D21E14A003237E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E891A332A73718FAEE0C376F /* Pods-Mirex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mirex/Info.plist;
@@ -421,6 +594,7 @@
 		};
 		408C0BA81D21E14A003237E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89392987ED8A6BCE7BDF716B /* Pods-MirexTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MirexTests/Info.plist;
@@ -433,6 +607,7 @@
 		};
 		408C0BA91D21E14A003237E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BCAD2F30A79BE03D1606B0F /* Pods-MirexTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MirexTests/Info.plist;
@@ -445,6 +620,7 @@
 		};
 		408C0BAB1D21E14A003237E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC213EA4B18739036408B653 /* Pods-MirexUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MirexUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +632,7 @@
 		};
 		408C0BAC1D21E14A003237E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1663CCD42B403888D142E120 /* Pods-MirexUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MirexUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				408C0BA61D21E14A003237E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		408C0BA71D21E14A003237E3 /* Build configuration list for PBXNativeTarget "MirexTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				408C0BA91D21E14A003237E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		408C0BAA1D21E14A003237E3 /* Build configuration list for PBXNativeTarget "MirexUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				408C0BAC1D21E14A003237E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
