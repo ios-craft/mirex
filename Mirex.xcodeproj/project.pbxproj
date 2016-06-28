@@ -18,6 +18,7 @@
 		408C0BB31D21F051003237E3 /* OfferListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C0BB11D21F051003237E3 /* OfferListItemCell.swift */; };
 		408C0BB41D21F051003237E3 /* OfferListItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 408C0BB21D21F051003237E3 /* OfferListItemCell.xib */; };
 		408C0BB71D223E16003237E3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C0BB61D223E16003237E3 /* DetailViewController.swift */; };
+		408C0BBA1D223F51003237E3 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C0BB91D223F51003237E3 /* R.generated.swift */; };
 		CB47B8B2AD6EBE2D79B13589 /* Pods_MirexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C69D67C973BF39AC76B59DF /* Pods_MirexUITests.framework */; };
 		D3825D7C291E65DB6B52BC94 /* Pods_MirexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E5C392F669CBB778C70569 /* Pods_MirexTests.framework */; };
 		E5B42F1CAA98827E8CB2999C /* Pods_Mirex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45D7D4C82C8B584027CC980 /* Pods_Mirex.framework */; };
@@ -59,6 +60,7 @@
 		408C0BB11D21F051003237E3 /* OfferListItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferListItemCell.swift; sourceTree = "<group>"; };
 		408C0BB21D21F051003237E3 /* OfferListItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfferListItemCell.xib; sourceTree = "<group>"; };
 		408C0BB61D223E16003237E3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		408C0BB91D223F51003237E3 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		5C69D67C973BF39AC76B59DF /* Pods_MirexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MirexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E371B1B8CC675C0955D5C17 /* Pods-Mirex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mirex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mirex/Pods-Mirex.debug.xcconfig"; sourceTree = "<group>"; };
 		89392987ED8A6BCE7BDF716B /* Pods-MirexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirexTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MirexTests/Pods-MirexTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				408C0B831D21E14A003237E3 /* Main.storyboard */,
 				408C0B861D21E14A003237E3 /* Assets.xcassets */,
 				408C0B881D21E14A003237E3 /* LaunchScreen.storyboard */,
+				408C0BB91D223F51003237E3 /* R.generated.swift */,
 				408C0B8B1D21E14A003237E3 /* Info.plist */,
 			);
 			path = Mirex;
@@ -209,6 +212,7 @@
 			buildConfigurationList = 408C0BA41D21E14A003237E3 /* Build configuration list for PBXNativeTarget "Mirex" */;
 			buildPhases = (
 				0BF0F77B9E77B36761974F90 /* [CP] Check Pods Manifest.lock */,
+				408C0BB81D223EEF003237E3 /* ShellScript */,
 				408C0B781D21E14A003237E3 /* Sources */,
 				408C0B791D21E14A003237E3 /* Frameworks */,
 				408C0B7A1D21E14A003237E3 /* Resources */,
@@ -382,6 +386,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mirex/Pods-Mirex-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		408C0BB81D223EEF003237E3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
 		A2B3D6AF85B5A785EDF4EE55 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,6 +486,7 @@
 				408C0BB71D223E16003237E3 /* DetailViewController.swift in Sources */,
 				408C0BAF1D21ED01003237E3 /* BackendModels.swift in Sources */,
 				408C0BB31D21F051003237E3 /* OfferListItemCell.swift in Sources */,
+				408C0BBA1D223F51003237E3 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

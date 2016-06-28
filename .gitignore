@@ -23,4 +23,5 @@ xcuserdata/
 *.xcscmblueprint
 
 Pods
+*.generated.swift
 
