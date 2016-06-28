@@ -15,6 +15,7 @@ struct OfferListItem: Unboxable {
     let title: String
     let year: Int
     let price: Int
+    let picturePath: String
     let detailsPath: String
     
     init(unboxer: Unboxer) {
@@ -23,6 +24,7 @@ struct OfferListItem: Unboxable {
         year = unboxer.unbox("year")
         price = unboxer.unbox("price")
         detailsPath = unboxer.unbox("details")
+        picturePath = unboxer.unbox("picture")
     }
     
 }
@@ -34,6 +36,7 @@ struct Offer: Unboxable {
     let price: Int
     let mileage: Int
     let text: String
+    let picturePath: String
     let sellerPath: String
     
     init(unboxer: Unboxer) {
@@ -44,6 +47,7 @@ struct Offer: Unboxable {
         mileage = unboxer.unbox("mileage")
         text = unboxer.unbox("desc")
         sellerPath = unboxer.unbox("seller")
+        picturePath = unboxer.unbox("picture")
     }
     
 }
