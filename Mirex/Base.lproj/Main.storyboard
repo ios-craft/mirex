@@ -8,7 +8,7 @@
         <!--Listings-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Mirex" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="Mirex" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -38,7 +38,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="tview" destination="ozb-2d-pzo" id="fjs-lT-I0w"/>
-                        <segue destination="yGd-U8-4EI" kind="show" id="nzy-bn-AaO"/>
+                        <segue destination="yGd-U8-4EI" kind="show" identifier="ShowDetail" id="nzy-bn-AaO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -48,7 +48,7 @@
         <!--Detail View Controller-->
         <scene sceneID="wD4-U0-Le6">
             <objects>
-                <viewController id="yGd-U8-4EI" customClass="DetailViewController" customModule="Mirex" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="yGd-U8-4EI" customClass="DetailViewController" customModule="Mirex" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="O9g-5t-4Ou"/>
                         <viewControllerLayoutGuide type="bottom" id="IQP-G5-pbd"/>
