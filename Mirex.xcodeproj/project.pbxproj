@@ -17,6 +17,7 @@
 		408C0BAF1D21ED01003237E3 /* BackendModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C0BAE1D21ED01003237E3 /* BackendModels.swift */; };
 		408C0BB31D21F051003237E3 /* OfferListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C0BB11D21F051003237E3 /* OfferListItemCell.swift */; };
 		408C0BB41D21F051003237E3 /* OfferListItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 408C0BB21D21F051003237E3 /* OfferListItemCell.xib */; };
+		408C0BB71D223E16003237E3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C0BB61D223E16003237E3 /* DetailViewController.swift */; };
 		CB47B8B2AD6EBE2D79B13589 /* Pods_MirexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C69D67C973BF39AC76B59DF /* Pods_MirexUITests.framework */; };
 		D3825D7C291E65DB6B52BC94 /* Pods_MirexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E5C392F669CBB778C70569 /* Pods_MirexTests.framework */; };
 		E5B42F1CAA98827E8CB2999C /* Pods_Mirex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45D7D4C82C8B584027CC980 /* Pods_Mirex.framework */; };
@@ -57,6 +58,7 @@
 		408C0BAE1D21ED01003237E3 /* BackendModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendModels.swift; sourceTree = "<group>"; };
 		408C0BB11D21F051003237E3 /* OfferListItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferListItemCell.swift; sourceTree = "<group>"; };
 		408C0BB21D21F051003237E3 /* OfferListItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfferListItemCell.xib; sourceTree = "<group>"; };
+		408C0BB61D223E16003237E3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5C69D67C973BF39AC76B59DF /* Pods_MirexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MirexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E371B1B8CC675C0955D5C17 /* Pods-Mirex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mirex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mirex/Pods-Mirex.debug.xcconfig"; sourceTree = "<group>"; };
 		89392987ED8A6BCE7BDF716B /* Pods-MirexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirexTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MirexTests/Pods-MirexTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		408C0B7E1D21E14A003237E3 /* Mirex */ = {
 			isa = PBXGroup;
 			children = (
+				408C0BB51D223DFC003237E3 /* Detail */,
 				408C0BB01D21F013003237E3 /* UI */,
 				408C0BAD1D21ECB7003237E3 /* BackendModel */,
 				408C0B7F1D21E14A003237E3 /* AppDelegate.swift */,
@@ -165,6 +168,14 @@
 				408C0BB21D21F051003237E3 /* OfferListItemCell.xib */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		408C0BB51D223DFC003237E3 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				408C0BB61D223E16003237E3 /* DetailViewController.swift */,
+			);
+			name = Detail;
 			sourceTree = "<group>";
 		};
 		6D97AFCBE20F327EB86279F2 /* Frameworks */ = {
@@ -455,6 +466,7 @@
 			files = (
 				408C0B821D21E14A003237E3 /* ViewController.swift in Sources */,
 				408C0B801D21E14A003237E3 /* AppDelegate.swift in Sources */,
+				408C0BB71D223E16003237E3 /* DetailViewController.swift in Sources */,
 				408C0BAF1D21ED01003237E3 /* BackendModels.swift in Sources */,
 				408C0BB31D21F051003237E3 /* OfferListItemCell.swift in Sources */,
 			);
